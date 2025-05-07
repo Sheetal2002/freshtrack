@@ -1,0 +1,137 @@
+* {
+  font-size: 1rem;
+  /* background-color: rgb(230, 209, 209); */
+}
+
+@media (max-width:768px) {
+  * {
+    font-size: .9rem;
+  }
+
+}
+
+/* ======= Navbar Styling ======= */
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 200px;
+  object-fit: contain;
+}
+
+
+.mainheader {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(131, 93, 93);
+  z-index: 10;
+}
+
+.mainheader img {
+  width: 100%;
+}
+
+
+.btn.add-product {
+  background: #94c459;
+   transition: background 0.3s ease-in-out;
+}
+
+
+/* Horizontal behavior for mobile screens */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin: 0 5px;
+  }
+}
+
+#welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#welcome-container h2 {
+  font-family: 'Lora', serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #f3f0ed;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .content.body-cont {
+    margin-top: 0px;
+  }
+}
+
+.filter-btn-all {
+  background-color: rgb(158, 145, 145);
+  margin: 10px;
+}
+.filter-btn-all p, .filter-btn-fresh p,.filter-btn-soon p,.filter-btn-exp p{
+  margin: 0px;
+}
+
+.filter-btn-fresh {
+  background-color: rgb(158, 145, 145);
+  margin: 10px;
+}
+
+.filter-btn-soon {
+  background-color: rgb(158, 145, 145);
+  margin: 10px;
+}
+
+.filter-btn-exp {
+  background-color: rgb(158, 145, 145);
+  margin: 10px;
+}
+
+/* hover  */
+.filter-btn-all:hover {
+  background: rgb(100, 150, 152);
+
+}
+
+.filter-btn-fresh:hover {
+  background: rgb(100, 150, 152);
+
+}
+
+.filter-btn-soon:hover {
+  background: rgb(100, 150, 152);
+
+}
+
+.filter-btn-exp:hover {
+  background: rgb(100, 150, 152);
+}
+
+.btn.add-product:hover {
+  background: rgb(100, 150, 152);
+}
+
+
+.dash-container {
+  background-color: rgb(208, 200, 193);
+  min-height: 100vh;
+  padding-top: 15px;
+}
+
+
+/* about freshtrack project & team */
+.aboutFT {
+  font-size: 1rem;
+  /* background: rgb(188, 162, 162); */
+  background-color: rgb(188, 162, 162);
+}

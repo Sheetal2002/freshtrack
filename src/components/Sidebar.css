@@ -1,0 +1,23 @@
+.sidebar {
+    background-color: #343a40;
+   
+  }
+  
+  .sidebar.list-group-item {
+    border: none;
+    transition: background 0.3s;
+  }
+  
+  .sidebar.list-group-item:hover {
+    background-color: #495057;
+  }
+  
+  .sidebar.card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .sidebar.list-group-item span {
+    font-size: 1rem;
+  }
+  

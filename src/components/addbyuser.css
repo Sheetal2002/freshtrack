@@ -1,0 +1,35 @@
+
+
+.container.add-by-user {
+    max-width: 800px;
+    margin-top: 15px;
+    background: transparent;
+  }
+  
+.card.add-user-card {
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9); 
+    background-color: rgb(131, 114, 114);
+    color: #f4efef;
+  }
+  
+  .adduser-heading {
+    color: #f4efef;
+  }
+  
+  
+  .btn.adduser-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-left: 130px ; 
+     margin-top: 20px;
+  }
+  
+  .btn.adduser-btn:hover{
+    background: rgb(100, 150, 152);
+    color: white;
+  }
