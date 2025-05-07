@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Container, Row, Col, Card
-  // , Image
 } from 'react-bootstrap';
 import Logo1 from "./Images/Ftrack_logo1.png";
 
